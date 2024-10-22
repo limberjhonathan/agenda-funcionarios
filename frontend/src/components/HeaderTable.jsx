@@ -6,6 +6,7 @@ export default function HeaderTable() {
                 <th>Cargo</th>
                 <th>Email</th>
                 <th>Salário</th>
+                <th></th>
             </tr>
         </thead>
     )
