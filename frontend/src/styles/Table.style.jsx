@@ -28,6 +28,36 @@ export const Table = styled.table`
     tbody tr:nth-child(odd){
         background-color: #f4f1f1;
     }
-    
 
+    tr td:has(Button) {
+
+        div{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            svg{
+                color: #cd3535;
+                font-size: 1.2em;
+                cursor: pointer;
+                transition: transform 0.3s ease;
+            }
+
+            button{
+                transition: transform 0.3s ease;
+            }
+            button:hover{
+                transform: scale(1.15);
+            }
+
+            svg:hover{
+                transform: scale(1.3);
+            }
+
+            svg:active, button:active{
+                transform: scale(0.8);
+            }
+        }
+        
+    }
 `
