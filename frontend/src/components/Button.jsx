@@ -1,5 +1,6 @@
 import { FaTrash } from "react-icons/fa"
 import { StyledButton } from "../styles/StyledButton"
+import { Link } from 'react-router-dom'
 
 export default function Button() {
     function editElement(){
@@ -12,7 +13,9 @@ export default function Button() {
 
     return (
         <div>
-            <StyledButton onClick={editElement}>Editar</StyledButton>
+            <Link to={"/"}>
+                <StyledButton onClick={editElement}>Editar</StyledButton>
+            </Link>
             <FaTrash  onClick={handleTrashClick}/>
         </div>
     )
