@@ -1,0 +1,18 @@
+.btn{
+    background-color: #f8dd65;
+    padding: 1.3em 1.3em;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #4d4747;
+    font-weight: 600;
+    letter-spacing: .8px;
+    transition: transform .3s ease-in;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+.btn:active{
+    transform: scale(.8);
+}
