@@ -1,12 +1,12 @@
 import HeaderTable from "../components/HeaderTable"
 import EmployeeCard from "../components/Employeecard"
-import ButtonReturn from "../components/BUttonReturn"
 import { Table } from "../styles/Table.style"
+import ButtonsReturnAdd from "../components/ButtonsReturnAdd"
 
 export default function ListEmployee(){
     return(
         <div>
-            <ButtonReturn/>
+            <ButtonsReturnAdd/>
             <Table>   
                 <HeaderTable/>
                 <EmployeeCard/>
