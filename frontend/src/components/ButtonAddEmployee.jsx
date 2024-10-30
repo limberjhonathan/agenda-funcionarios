@@ -3,7 +3,7 @@ import styles from '../styles/ButtonAddEmployee.module.css'
 
 export default function AddEmployee() {
     return(
-        <Link className={styles.btn} to={"/edit"}>
+        <Link className={styles.btn} to={"/addemployee"}>
             Adicionar funcionario
         </Link>
     )   
