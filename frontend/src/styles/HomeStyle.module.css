@@ -1,0 +1,18 @@
+.container_home div{
+    display: flex;
+    align-items: center;
+    color: #ddd;
+    font-size: 1.8em;
+    padding: 0 2em;
+}
+
+.container_home div p{
+    letter-spacing: 2px;
+    text-indent: 50px;
+    text-align: justify;
+}
+
+.container_home img{
+    width: 700px;
+    height: auto;
+}
