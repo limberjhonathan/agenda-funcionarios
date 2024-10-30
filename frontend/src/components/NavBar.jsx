@@ -15,7 +15,7 @@ export default function Navbar(){
                         <Link to={"/list"}>Funcionarios</Link>
                     </li>
                     <li>
-                        <Link>Adicionar</Link>
+                        <Link to={'/addemployee'}>Adicionar</Link>
                     </li>
                     <li>
                         <Link>Contato</Link>
