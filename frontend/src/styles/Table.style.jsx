@@ -11,7 +11,7 @@ export const Table = styled.table`
     th{
         color: #ddd;
         letter-spacing: .1em;
-        padding: .8em;
+        padding: .8em 1.3em;
         background-color: #3c5875;
         text-align: start;
         border: none;
@@ -33,7 +33,7 @@ export const Table = styled.table`
 
         div{
             display: flex;
-            justify-content: space-around;
+            justify-content: space-evenly;
             align-items: center;
 
             svg{
