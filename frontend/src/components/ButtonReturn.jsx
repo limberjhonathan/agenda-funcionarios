@@ -1,10 +1,15 @@
-import { IoReturnDownBackSharp } from "react-icons/io5";
 import { ButtonReturnStyle } from "../styles/ButtonReturnStyle";
+import { FaCaretLeft } from "react-icons/fa";
+import { Link } from 'react-router-dom'
+
 
 export default function ButtonReturn(){
+
     return(
-        <ButtonReturnStyle>
-            <IoReturnDownBackSharp/>
-        </ButtonReturnStyle>
+        <Link to={"/"}>
+            <ButtonReturnStyle>
+                <FaCaretLeft/>
+            </ButtonReturnStyle>
+        </Link>
     )
 }
