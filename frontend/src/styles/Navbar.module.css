@@ -1,0 +1,39 @@
+.container_link{
+    width: 100px;
+    height: 100px;
+}
+
+img{
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    min-width: 450px;
+}
+
+.list li a{
+    display: inline-block; 
+    text-decoration: none;
+    background-color: #153446;
+    padding: 1.4em 1.2em;
+    border-radius: 10px;
+    color: #ddd;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    transition: color .4s ease-in, transform 0.5s ease;
+}
+
+.list li a:hover{
+    transform: scale(1.1);
+    background-color: transparent;
+    color: rgb(44, 42, 42);
+    outline: 2px solid #153446;
+}
