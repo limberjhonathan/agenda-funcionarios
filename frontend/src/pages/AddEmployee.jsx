@@ -22,14 +22,14 @@ export default function AddEmployee(){
                 <input type="number" id='money' autoComplete='off' className={styles.input}/>
 
                 <label htmlFor="categorias">Escolha uma categoria:</label>
-                <select id="categorias" name="categorias" value={selectedCategory} onChange={handleChange}>
-                    {selectedCategory === '' && <option value="" disabled>Escolha uma categoria...</option>}
+                <select className={styles.select} id="categorias" name="categorias" value={selectedCategory} onChange={handleChange}>
+                    {selectedCategory === '' && <option value="" disabled >Escolha uma categoria...</option>}
                     <option value="Desenvolvedor">Desenvolvedor</option>
                     <option value="Analista">Analista</option>
                     <option value="DevOps">DevOps</option>
                     <option value="Scrum">Scrum</option>
                 </select>
-                <input type="submit" value='enviar'/>
+                <input type="submit" value='enviar' className={styles.btn}/>
             </form>
         </div>
     )
